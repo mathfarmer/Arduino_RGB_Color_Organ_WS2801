@@ -86,7 +86,7 @@ boolean expectOffset;
 uint8_t dataPin  = 12;    // Yellow wire on Adafruit Pixels
 uint8_t clockPin = 13;    // Green wire on Adafruit Pixels
 
-Adafruit_WS2801 strip = Adafruit_WS2801(25, dataPin, clockPin);
+Adafruit_WS2801 strip = Adafruit_WS2801(LED_COUNT, dataPin, clockPin);
 //boolean flip; // Used for crude a/b profiling
 
 void setup()
